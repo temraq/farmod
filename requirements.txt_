@@ -1,0 +1,30 @@
+# Основные зависимости
+torch==2.2.1
+transformers==4.39.3
+datasets==2.18.0
+accelerate==0.29.3
+
+# Квантизация и эффективное обучение
+bitsandbytes==0.43.0
+peft==0.10.0
+trl==0.8.1
+
+# RAG и поиск
+faiss-cpu==1.8.0
+sentence-transformers==2.6.1
+
+# Оценка
+ragas==0.1.6
+evaluate==0.4.2
+
+# API и интерфейс
+fastapi==0.110.1
+uvicorn==0.29.0
+gradio==4.24.0
+requests==2.31.0
+
+# Вспомогательные
+numpy==1.26.4
+pandas==2.2.1
+tqdm==4.66.2
+python-dotenv==1.0.1
